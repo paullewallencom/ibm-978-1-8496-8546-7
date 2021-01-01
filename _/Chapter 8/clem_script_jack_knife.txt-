@@ -1,0 +1,63 @@
+var temp_dir
+var idx
+var full_error
+var jack_error
+var pct_diff
+var csv_output
+var tmp_node
+var num_cust
+var customer_id
+
+# delete all existing models
+for tmp_node in ^stream.nodes
+	if ^tmp_node.node_type = applylinearnode then
+		delete ^tmp_node
+	endif
+endfor
+
+# open output CSV file
+set csv_output = open create "c:/temp/output.csv"
+writeln csv_output "CUSTOMER_ID,FULL_MODEL_ERROR,JACK_KNIFE_ERROR,PCT_DIFF"
+
+execute cust_id_output
+set num_cust = cust_id_output.output.row_count
+
+for idx from 1 to ^num_cust
+	set customer_id = value cust_id_output.output at ^idx 1 
+
+	# select all customers by excluding a bogus customer id
+	set deselect_cust.condition = "CUSTOMER_ID = -1"
+
+	# build full model (all customers)
+	execute linear
+	insert model linear_model connected between deselect_cust and error
+
+	# evaluate full model (minus this customer)
+	set deselect_cust.condition = "CUSTOMER_ID = " >< customer_id
+	execute sum_abs_error_output
+	set full_error = value sum_abs_error_output.output at 1 1
+
+	# build jack-knife model (minus this customer)
+	delete linear_model
+	execute linear
+	insert model linear_model connected between deselect_cust and error
+
+	# evaluate jack-knife model (minus this customer)
+	execute sum_abs_error_output
+	set jack_error = value sum_abs_error_output.output at 1 1
+	set pct_diff = (jack_error - full_error)/full_error
+	
+	# write CSV row
+	writeln csv_output customer_id >< "," >< full_error >< "," >< jack_error >< "," >< pct_diff
+
+	delete linear_model
+	clear outputs
+endfor
+
+close csv_output
+
+# view results
+set output_data.fule_filename = file_name
+execute output_table
+
+

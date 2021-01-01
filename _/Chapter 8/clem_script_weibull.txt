@@ -1,0 +1,16 @@
+var tmp_node
+
+# delete all existing models
+for tmp_node in ^stream.nodes
+	if ^tmp_node.node_type = applylinearnode then
+		delete ^tmp_node
+	endif
+endfor
+
+# create linear model and export PMML
+execute linear
+export model linear_model as "c:/temp/linear_model.xml"
+
+execute output_table
+
+

@@ -1,0 +1,812 @@
+Product_Code	Product_Category	Unit_Price
+724	Entertainment	1499
+650	Entertainment	1299
+708	Entertainment	1299
+722	Entertainment	1199
+646	Entertainment	1199
+649	Entertainment	1099
+685	Entertainment	1099
+721	Entertainment	999
+680	Entertainment	999
+720	Entertainment	899
+684	Entertainment	899
+644	Entertainment	799
+679	Entertainment	799
+719	Entertainment	799
+647	Entertainment	699
+683	Entertainment	699
+718	Entertainment	599
+643	Entertainment	599
+678	Entertainment	599
+656	Entertainment	499
+662	Entertainment	499
+682	Entertainment	499
+716	Entertainment	499
+717	Entertainment	499
+655	Entertainment	399
+661	Entertainment	399
+669	Entertainment	399
+677	Entertainment	399
+713	Entertainment	399
+715	Entertainment	399
+761	Entertainment	299
+775	Entertainment	299
+780	Entertainment	299
+697	Entertainment	299
+654	Entertainment	299
+660	Entertainment	299
+668	Entertainment	299
+681	Entertainment	299
+712	Entertainment	299
+714	Entertainment	299
+760	Entertainment	199
+763	Entertainment	8999
+774	Entertainment	8999
+779	Entertainment	8999
+762	Entertainment	8499
+653	Entertainment	8199
+659	Entertainment	8199
+667	Entertainment	8099
+696	Entertainment	8099
+711	Entertainment	8099
+758	Entertainment	8099
+759	Entertainment	8099
+773	Entertainment	7999
+778	Entertainment	7999
+673	Entertainment	7599
+652	Entertainment	7199
+658	Entertainment	7199
+666	Entertainment	7199
+691	Entertainment	7099
+731	Entertainment	7099
+741	Entertainment	7099
+757	Entertainment	7099
+772	Entertainment	7099
+777	Entertainment	7099
+676	Entertainment	6799
+672	Entertainment	6699
+695	Entertainment	6599
+730	Entertainment	6599
+740	Entertainment	6599
+651	Entertainment	6199
+657	Entertainment	6199
+665	Entertainment	6199
+690	Entertainment	6199
+729	Entertainment	6099
+735	Entertainment	6099
+739	Entertainment	6099
+751	Entertainment	6099
+756	Entertainment	6099
+771	Entertainment	6099
+776	Entertainment	6099
+819	Entertainment	5999
+675	Entertainment	5799
+671	Entertainment	5699
+664	Entertainment	5199
+689	Entertainment	5199
+694	Entertainment	5199
+734	Entertainment	5099
+744	Entertainment	5099
+750	Entertainment	5099
+755	Entertainment	5099
+766	Entertainment	5099
+770	Entertainment	5099
+795	Entertainment	5099
+810	Entertainment	5099
+818	Entertainment	5099
+674	Entertainment	4799
+768	Entertainment	4699
+670	Entertainment	4699
+704	Entertainment	4699
+749	Entertainment	4599
+765	Entertainment	4599
+663	Entertainment	4199
+688	Entertainment	4199
+700	Entertainment	4199
+707	Entertainment	4199
+728	Entertainment	4199
+733	Entertainment	4199
+738	Entertainment	4199
+743	Entertainment	4099
+748	Entertainment	4099
+754	Entertainment	4099
+794	Entertainment	4099
+802	Entertainment	4099
+809	Entertainment	4099
+817	Entertainment	4099
+693	Entertainment	3699
+703	Entertainment	3699
+727	Entertainment	3699
+737	Entertainment	3699
+747	Entertainment	3699
+764	Entertainment	3599
+767	Entertainment	3599
+793	Entertainment	3599
+801	Entertainment	3599
+808	Entertainment	3599
+816	Entertainment	3599
+687	Entertainment	3199
+699	Entertainment	3199
+706	Entertainment	3199
+726	Entertainment	3199
+732	Entertainment	3199
+736	Entertainment	3199
+742	Entertainment	3199
+746	Entertainment	3199
+753	Entertainment	3199
+769	Entertainment	3099
+787	Entertainment	3099
+792	Entertainment	3099
+800	Entertainment	3099
+807	Entertainment	3099
+815	Entertainment	3099
+702	Entertainment	2699
+745	Entertainment	2699
+786	Entertainment	2599
+791	Entertainment	2599
+799	Entertainment	2599
+806	Entertainment	2599
+814	Entertainment	2599
+686	Entertainment	2199
+692	Entertainment	2199
+698	Entertainment	2199
+705	Entertainment	2199
+752	Entertainment	2199
+785	Entertainment	2099
+790	Entertainment	2099
+798	Entertainment	2099
+805	Entertainment	2099
+813	Entertainment	2099
+701	Entertainment	1699
+784	Entertainment	1699
+789	Entertainment	1699
+797	Entertainment	1599
+804	Entertainment	1599
+812	Entertainment	1599
+783	Entertainment	1499
+782	Entertainment	1199
+788	Entertainment	1199
+796	Entertainment	1199
+803	Entertainment	1099
+811	Entertainment	1099
+781	Entertainment	999
+207	Game Consoles	1499
+205	Game Consoles	1399
+204	Game Consoles	1299
+206	Game Consoles	1299
+208	Game Consoles	1199
+203	Game Consoles	899
+200	Game Consoles	899
+199	Game Consoles	799
+201	Game Consoles	799
+202	Game Consoles	699
+210	Game Consoles	399
+209	Game Consoles	299
+211	Game Consoles	199
+469	Hardware	2199
+355	Hardware	1999
+468	Hardware	1999
+354	Hardware	1799
+467	Hardware	1799
+474	Hardware	1799
+428	Hardware	1699
+383	Hardware	1599
+466	Hardware	1599
+473	Hardware	1599
+427	Hardware	1499
+352	Hardware	1399
+382	Hardware	1399
+421	Hardware	1399
+465	Hardware	1399
+472	Hardware	1399
+386	Hardware	1299
+426	Hardware	1299
+351	Hardware	1199
+381	Hardware	1199
+420	Hardware	1199
+464	Hardware	1199
+471	Hardware	1199
+425	Hardware	1099
+350	Hardware	999
+380	Hardware	999
+419	Hardware	999
+463	Hardware	999
+470	Hardware	999
+604	Hardware	939
+384	Hardware	899
+424	Hardware	899
+576	Hardware	899
+579	Hardware	899
+603	Hardware	839
+349	Hardware	799
+379	Hardware	799
+418	Hardware	799
+446	Hardware	799
+447	Hardware	799
+444	Hardware	749
+445	Hardware	749
+454	Hardware	749
+461	Hardware	749
+462	Hardware	749
+602	Hardware	739
+423	Hardware	699
+442	Hardware	699
+443	Hardware	699
+452	Hardware	699
+453	Hardware	699
+459	Hardware	699
+460	Hardware	699
+575	Hardware	699
+578	Hardware	699
+608	Hardware	699
+440	Hardware	649
+441	Hardware	649
+450	Hardware	649
+451	Hardware	649
+457	Hardware	649
+458	Hardware	649
+601	Hardware	639
+348	Hardware	599
+377	Hardware	599
+378	Hardware	599
+417	Hardware	599
+438	Hardware	599
+439	Hardware	599
+448	Hardware	599
+449	Hardware	599
+455	Hardware	599
+456	Hardware	599
+480	Hardware	599
+483	Hardware	599
+607	Hardware	599
+347	Hardware	550
+600	Hardware	539
+346	Hardware	500
+340	Hardware	499
+363	Hardware	499
+375	Hardware	499
+376	Hardware	499
+422	Hardware	499
+477	Hardware	499
+479	Hardware	499
+482	Hardware	499
+574	Hardware	499
+577	Hardware	499
+606	Hardware	499
+345	Hardware	450
+599	Hardware	439
+344	Hardware	400
+339	Hardware	399
+358	Hardware	399
+360	Hardware	399
+362	Hardware	399
+373	Hardware	399
+374	Hardware	399
+393	Hardware	399
+416	Hardware	399
+476	Hardware	399
+478	Hardware	399
+481	Hardware	399
+572	Hardware	399
+589	Hardware	399
+592	Hardware	399
+597	Hardware	399
+605	Hardware	399
+359	Hardware	349
+368	Hardware	349
+392	Hardware	349
+571	Hardware	349
+586	Hardware	349
+596	Hardware	349
+614	Hardware	349
+616	Hardware	349
+598	Hardware	339
+343	Hardware	300
+338	Hardware	299
+342	Hardware	299
+357	Hardware	299
+361	Hardware	299
+367	Hardware	299
+371	Hardware	299
+372	Hardware	299
+389	Hardware	299
+391	Hardware	299
+394	Hardware	299
+395	Hardware	299
+396	Hardware	299
+475	Hardware	299
+569	Hardware	299
+570	Hardware	299
+582	Hardware	299
+583	Hardware	299
+585	Hardware	299
+588	Hardware	299
+591	Hardware	299
+595	Hardware	299
+613	Hardware	269
+341	Hardware	249
+366	Hardware	249
+388	Hardware	249
+390	Hardware	249
+402	Hardware	249
+414	Hardware	249
+434	Hardware	249
+584	Hardware	249
+594	Hardware	249
+615	Hardware	239
+612	Hardware	229
+413	Hardware	219
+356	Hardware	199
+365	Hardware	199
+369	Hardware	199
+370	Hardware	199
+387	Hardware	199
+401	Hardware	199
+412	Hardware	199
+415	Hardware	199
+433	Hardware	199
+568	Hardware	199
+573	Hardware	199
+580	Hardware	199
+581	Hardware	199
+587	Hardware	199
+590	Hardware	199
+593	Hardware	199
+609	Hardware	199
+610	Hardware	199
+611	Hardware	199
+411	Hardware	189
+400	Hardware	179
+410	Hardware	179
+432	Hardware	179
+409	Hardware	159
+364	Hardware	149
+399	Hardware	149
+408	Hardware	149
+431	Hardware	149
+538	Hardware	149
+407	Hardware	139
+508	Hardware	139
+537	Hardware	139
+398	Hardware	129
+406	Hardware	129
+430	Hardware	129
+437	Hardware	129
+536	Hardware	129
+558	Hardware	129
+507	Hardware	124
+512	Hardware	124
+405	Hardware	119
+534	Hardware	119
+535	Hardware	119
+506	Hardware	109
+511	Hardware	109
+533	Hardware	109
+557	Hardware	109
+531	Hardware	104
+397	Hardware	99
+404	Hardware	99
+429	Hardware	99
+436	Hardware	99
+496	Hardware	99
+532	Hardware	99
+560	Hardware	99
+503	Hardware	94
+505	Hardware	94
+510	Hardware	94
+530	Hardware	94
+403	Hardware	89
+435	Hardware	89
+495	Hardware	89
+526	Hardware	89
+545	Hardware	89
+556	Hardware	89
+502	Hardware	84
+529	Hardware	84
+494	Hardware	79
+504	Hardware	79
+509	Hardware	79
+522	Hardware	79
+525	Hardware	79
+544	Hardware	79
+559	Hardware	79
+501	Hardware	74
+528	Hardware	74
+488	Hardware	69
+493	Hardware	69
+515	Hardware	69
+518	Hardware	69
+521	Hardware	69
+524	Hardware	69
+543	Hardware	69
+547	Hardware	69
+555	Hardware	69
+500	Hardware	64
+527	Hardware	64
+487	Hardware	59
+492	Hardware	59
+514	Hardware	59
+517	Hardware	59
+520	Hardware	59
+523	Hardware	59
+541	Hardware	59
+542	Hardware	59
+546	Hardware	59
+499	Hardware	54
+486	Hardware	49
+491	Hardware	49
+513	Hardware	49
+516	Hardware	49
+519	Hardware	49
+540	Hardware	49
+554	Hardware	49
+566	Hardware	49
+498	Hardware	44
+565	Hardware	44
+485	Hardware	39
+490	Hardware	39
+539	Hardware	39
+563	Hardware	39
+564	Hardware	39
+497	Hardware	34
+562	Hardware	34
+484	Hardware	29
+489	Hardware	29
+553	Hardware	29
+561	Hardware	29
+567	Hardware	29
+551	Hardware	24
+550	Hardware	19
+552	Hardware	19
+549	Hardware	14
+548	Hardware	9
+254	Movies	2149
+251	Movies	2099
+267	Movies	1980
+285	Movies	1980
+253	Movies	1949
+250	Movies	1899
+252	Movies	1749
+249	Movies	1699
+233	Movies	1499
+232	Movies	1399
+245	Movies	1399
+266	Movies	1380
+231	Movies	1299
+237	Movies	1299
+244	Movies	1299
+248	Movies	1299
+247	Movies	1249
+230	Movies	1199
+236	Movies	1199
+243	Movies	1199
+246	Movies	1199
+258	Movies	1199
+260	Movies	1199
+257	Movies	1149
+215	Movies	1099
+229	Movies	1099
+235	Movies	1099
+256	Movies	1099
+276	Movies	1099
+255	Movies	1049
+218	Movies	999
+228	Movies	999
+234	Movies	999
+259	Movies	999
+275	Movies	999
+280	Movies	999
+284	Movies	980
+214	Movies	899
+223	Movies	899
+240	Movies	899
+274	Movies	899
+279	Movies	899
+213	Movies	799
+217	Movies	799
+221	Movies	799
+239	Movies	799
+273	Movies	799
+278	Movies	799
+216	Movies	749
+220	Movies	749
+222	Movies	749
+227	Movies	749
+212	Movies	699
+219	Movies	699
+226	Movies	699
+238	Movies	699
+242	Movies	699
+272	Movies	699
+277	Movies	699
+290	Movies	699
+225	Movies	649
+241	Movies	649
+224	Movies	599
+283	Movies	599
+289	Movies	599
+282	Movies	549
+281	Movies	499
+288	Movies	499
+287	Movies	399
+263	Movies	219
+265	Movies	199
+271	Movies	199
+262	Movies	189
+261	Movies	169
+264	Movies	169
+270	Movies	169
+269	Movies	149
+268	Movies	119
+286	Movies	119
+99	Video Games	99
+118	Video Games	99
+33	Video Games	84
+14	Video Games	79
+9	Video Games	69
+26	Video Games	69
+11	Video Games	59
+29	Video Games	59
+106	Video Games	59
+115	Video Games	59
+198	Video Games	59
+10	Video Games	49
+3	Video Games	44
+32	Video Games	44
+164	Video Games	44
+8	Video Games	39
+13	Video Games	39
+94	Video Games	39
+152	Video Games	39
+157	Video Games	39
+162	Video Games	39
+2	Video Games	34
+12	Video Games	34
+23	Video Games	34
+105	Video Games	34
+117	Video Games	34
+150	Video Games	34
+156	Video Games	34
+163	Video Games	34
+6	Video Games	29
+7	Video Games	29
+98	Video Games	29
+104	Video Games	29
+111	Video Games	29
+123	Video Games	29
+148	Video Games	29
+151	Video Games	29
+155	Video Games	29
+158	Video Games	29
+159	Video Games	29
+161	Video Games	29
+195	Video Games	29
+127	Video Games	28
+53	Video Games	26
+77	Video Games	26
+126	Video Games	25
+1	Video Games	24
+21	Video Games	24
+22	Video Games	24
+31	Video Games	24
+82	Video Games	24
+110	Video Games	24
+114	Video Games	24
+116	Video Games	24
+122	Video Games	24
+149	Video Games	24
+154	Video Games	24
+166	Video Games	24
+93	Video Games	22
+125	Video Games	22
+146	Video Games	21
+4	Video Games	19
+5	Video Games	19
+50	Video Games	19
+71	Video Games	19
+74	Video Games	19
+81	Video Games	19
+91	Video Games	19
+103	Video Games	19
+108	Video Games	19
+109	Video Games	19
+121	Video Games	19
+124	Video Games	19
+147	Video Games	19
+153	Video Games	19
+160	Video Games	19
+165	Video Games	19
+171	Video Games	19
+145	Video Games	18
+20	Video Games	17
+59	Video Games	17
+65	Video Games	17
+68	Video Games	17
+197	Video Games	16
+144	Video Games	15
+80	Video Games	149
+87	Video Games	149
+90	Video Games	149
+95	Video Games	149
+97	Video Games	149
+100	Video Games	149
+113	Video Games	149
+120	Video Games	149
+170	Video Games	149
+192	Video Games	149
+52	Video Games	129
+76	Video Games	129
+107	Video Games	129
+18	Video Games	119
+19	Video Games	119
+30	Video Games	119
+56	Video Games	119
+62	Video Games	119
+86	Video Games	119
+143	Video Games	119
+25	Video Games	39
+49	Video Games	69
+70	Video Games	89
+73	Video Games	89
+89	Video Games	109
+119	Video Games	139
+189	Video Games	209
+194	Video Games	209
+45	Video Games	59
+58	Video Games	69
+64	Video Games	79
+67	Video Games	79
+85	Video Games	99
+88	Video Games	99
+183	Video Games	199
+188	Video Games	199
+28	Video Games	39
+79	Video Games	89
+55	Video Games	69
+61	Video Games	69
+102	Video Games	109
+169	Video Games	179
+177	Video Games	189
+182	Video Games	189
+187	Video Games	199
+196	Video Games	209
+42	Video Games	49
+44	Video Games	49
+46	Video Games	59
+78	Video Games	89
+138	Video Games	149
+139	Video Games	149
+140	Video Games	149
+141	Video Games	149
+142	Video Games	149
+167	Video Games	179
+176	Video Games	189
+181	Video Games	189
+40	Video Games	49
+41	Video Games	49
+47	Video Games	59
+84	Video Games	89
+92	Video Games	99
+112	Video Games	119
+133	Video Games	139
+134	Video Games	139
+135	Video Games	139
+136	Video Games	139
+137	Video Games	149
+168	Video Games	179
+191	Video Games	199
+17	Video Games	19
+24	Video Games	29
+34	Video Games	39
+35	Video Games	39
+36	Video Games	39
+37	Video Games	39
+38	Video Games	39
+39	Video Games	49
+101	Video Games	109
+128	Video Games	129
+129	Video Games	139
+130	Video Games	139
+131	Video Games	139
+132	Video Games	139
+175	Video Games	179
+186	Video Games	189
+193	Video Games	199
+15	Video Games	19
+16	Video Games	19
+27	Video Games	29
+43	Video Games	49
+48	Video Games	49
+51	Video Games	59
+69	Video Games	69
+72	Video Games	79
+75	Video Games	79
+83	Video Games	89
+96	Video Games	99
+174	Video Games	179
+179	Video Games	179
+180	Video Games	179
+184	Video Games	189
+185	Video Games	189
+54	Video Games	59
+57	Video Games	59
+60	Video Games	59
+63	Video Games	69
+66	Video Games	69
+172	Video Games	169
+173	Video Games	179
+178	Video Games	179
+190	Video Games	189
+639	Software	999
+641	Software	299
+640	Software	259
+642	Software	199
+638	Software	129
+632	Software	169
+633	Software	69
+634	Software	269
+636	Software	59
+637	Software	34
+624	Software	54
+625	Software	24
+626	Software	64
+627	Software	74
+635	Software	84
+628	Software	19
+629	Software	29
+630	Software	149
+631	Software	59
+617	Software	19
+618	Software	29
+619	Software	39
+620	Software	49
+621	Software	39
+622	Software	69
+623	Software	15
+294	Streaming	399
+299	Streaming	409
+304	Streaming	409
+309	Streaming	419
+314	Streaming	419
+319	Streaming	429
+324	Streaming	439
+332	Streaming	449
+333	Streaming	449
+334	Streaming	449
+291	Streaming	389
+293	Streaming	199
+296	Streaming	199
+298	Streaming	199
+301	Streaming	199
+303	Streaming	199
+306	Streaming	199
+308	Streaming	209
+311	Streaming	209
+313	Streaming	209
+316	Streaming	209
+318	Streaming	209
+321	Streaming	209
+323	Streaming	209
+326	Streaming	219
+327	Streaming	219
+330	Streaming	219
+331	Streaming	219
+292	Streaming	189
+295	Streaming	189
+297	Streaming	199
+300	Streaming	199
+302	Streaming	199
+305	Streaming	199
+307	Streaming	199
+310	Streaming	199
+312	Streaming	199
+315	Streaming	209
+317	Streaming	209
+320	Streaming	209
+322	Streaming	209
+325	Streaming	209
+328	Streaming	209
+329	Streaming	209
+335	Streaming	219
+336	Streaming	219
+337	Streaming	219

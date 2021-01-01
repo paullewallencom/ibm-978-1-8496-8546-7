@@ -1,0 +1,12 @@
+var num_recs
+var idx
+
+execute rec_count_table
+
+# count the number of records to be forecast
+set num_recs = value rec_count_table.output at 1 1
+
+for idx from 1 to num_recs
+	# generate forecast one record at a time
+	execute forecast_data_overwrite
+endfor

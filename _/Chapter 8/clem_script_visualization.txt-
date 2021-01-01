@@ -1,0 +1,46 @@
+var output_dir
+var idx
+var num_sku_loc
+var file_name
+var title
+var html_out
+var report_file_name
+var customer_location
+var sku_number
+var start_loc
+var end_loc
+
+# read parameters into local variables
+set output_dir = '$P-output_dir'
+set start_loc = '$P-start_loc'
+set end_loc = '$P-end_loc'
+
+# determine which customer locations will be charted
+set loc_range.condition = "CUSTOMER_LOCATION_ID >=" >< ^start_loc >< " and CUSTOMER_LOCATION_ID <= " >< ^end_loc 
+execute sku_loc_table
+set num_sku_loc = sku_loc_table.output.row_count
+
+# setup the HTML output file
+set report_file_name = ^output_dir >< "/sku_loc_forecasts.html"
+set html_out = open create ^report_file_name
+writeln html_out "<html><head><title>SKU-Loc Forecasts</title></head></html><body><h1>Forecasts</h1><br/>"
+
+for idx from 1 to num_sku_loc
+	set customer_location = value sku_loc_table.output at ^idx 1 
+	set sku_number = value sku_loc_table.output at ^idx 2
+
+	# update select statement with new location and SKU
+	set choose_sku_loc.condition = "CUSTOMER_LOCATION_ID = " >< ^customer_location >< " and SKU_NUMBER = " >< ^sku_number
+	
+	# customize and generate graph
+	set title = "Location: " >< to_integer(^customer_location) >< " SKU: " >< to_integer(^sku_number)
+	set file_name = to_integer(^customer_location) >< "_" >< to_integer(^sku_number) >< ".jpg"
+	set graph.full_filename = ^output_dir >< "\\" >< ^file_name
+	set graph.title = ^title
+	execute graph
+
+	write html_out "<p>" >< title >< "</p><a href=\"" >< ^file_name >< "\"><img width=200 height=150 src=\"" >< ^file_name >< "\"/></a></br>"
+endfor
+
+write html_out "</body></html>"
+close html_out

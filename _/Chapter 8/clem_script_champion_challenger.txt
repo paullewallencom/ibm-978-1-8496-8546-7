@@ -1,0 +1,52 @@
+var iteration
+var challenger_accuracy
+var champion_accuracy
+var num_iter
+var promotion_threshold
+var tmp_node
+
+# read parameters into local variables
+set num_iter = '$P-num_iter'
+set promotion_threshold = '$P-promotion_threshold'
+
+# delete all existing models
+for tmp_node in ^stream.nodes
+	if ^tmp_node.node_type = applychaidnode then
+		delete ^tmp_node
+	endif
+endfor
+
+for iteration from 1 to ^num_iter
+	# build a CHAID model using a subset of data
+	execute chaid
+	insert model chaid_model connected between partition and select_test_partition
+	clear generated palette
+	execute eval_table
+	
+	set challenger_accuracy = value eval_table.output at 1 3
+	clear outputs
+
+	# if this is the first iteration, then the champion model is set to the current model
+	if (iteration = 1) then
+		set champion_accuracy = ^challenger_accuracy
+		disconnect chaid_model
+		duplicate chaid_model as champion_chaid_model
+		position champion_chaid_model at 200 200
+	else
+		# if new (challenger) model is more accurate, make it the new champion
+		if ((^challenger_accuracy - ^champion_accuracy) <= ^promotion_threshold) then
+			delete champion_chaid_model
+			set champion_accuracy = ^challenger_accuracy
+			disconnect chaid_model
+			duplicate chaid_model as champion_chaid_model
+			position champion_chaid_model at 200 200
+		endif
+	endif
+
+	# remove the challenger 
+	delete chaid_model	
+endfor
+
+# place the champion challenger back into the stream
+position champion_chaid_model connected between partition and select_test_partition
+

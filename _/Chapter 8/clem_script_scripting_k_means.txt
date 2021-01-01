@@ -1,0 +1,73 @@
+var min_clusters
+var max_clusters
+var num_iterations
+var cluster_size
+var iteration
+var champion_distance
+var challenger_distance
+var pct_change
+var min_pct_change
+var tmp_node 
+
+# read parameters into local variables
+set min_clusters = '$P-min_clusters'
+set max_clusters = '$P-max_clusters'
+set num_iterations = '$P-num_iterations'
+set min_pct_change = '$P-min_pct_change'
+
+# delete all existing models
+for tmp_node in ^stream.nodes
+	if ^tmp_node.node_type = applykmeansnode then
+		delete ^tmp_node
+	endif
+endfor
+
+for cluster_size from ^min_clusters to ^max_clusters
+	set k_means.num_clusters = ^cluster_size
+
+	for iteration from 1 to ^num_iterations
+		# build a challenger model
+		execute k_means
+		insert model k_means_model connected between filter_rand_num and sum_euclid_dist
+		clear generated palette
+		execute eval_table
+		set challenger_distance = value eval_table.output at 1 1
+		clear outputs
+
+		# if this is the first iteration, then the champion model is set to the current model
+		if (^cluster_size = ^min_clusters and iteration = 1) then
+			set champion_distance = ^challenger_distance
+			disconnect k_means_model
+			duplicate k_means_model as champion_k_means_model
+			position champion_k_means_model at 200 200
+		endif
+
+		# check for a better model (smaller euclidian distance) 
+		# if model is better then promote it to champion
+		set pct_change = (^challenger_distance - ^champion_distance)/^champion_distance
+		if ((^cluster_size = ^min_clusters and ^challenger_distance < ^champion_distance) or (^pct_change < ^min_pct_change)) then
+			delete champion_k_means_model
+			set champion_distance = ^challenger_distance
+			disconnect k_means_model
+			duplicate k_means_model as champion_k_means_model
+			position champion_k_means_model at 200 200
+		endif
+
+		# remove the challenger 
+		delete k_means_model
+	endfor
+endfor
+
+# place the champion back into the stream in its place of honor
+position champion_k_means_model connected between filter_rand_num and sum_euclid_dist
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+var num_trials
+var temp_dir
+var idx
+var tmp_node
+var current_field
+var pmml_file 
+
+# read parameters into local variables
+set num_trials = '$P-num_trials'
+
+# delete all existing models
+for tmp_node in ^stream.nodes
+	if ^tmp_node.node_type = applyneuralnetworknode then
+		delete ^tmp_node
+	endif
+endfor
+
+set trials_output.write_mode = Overwrite
+
+for idx from 1 to num_trials
+	if (idx = 2) then
+		set trials_output.write_mode = Append
+	endif
+
+	# build model
+	clear generated palette
+	execute c5
+	
+	# export pmml
+	set pmml_file = "C:/temp/c5_model_" >< to_string(random(100000)) >< ".xml"
+	export model c5_model as ^pmml_file 
+
+	# source pmml and write to CSV
+	set pmml.full_filename = ^pmml_file
+	execute trials_output
+endfor
+
+# show final stats for each variable importance
+execute stats
